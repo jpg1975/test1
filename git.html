@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Memo</title>
+<!--script src="js/jquery-1.10.2.js"></script-->
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="styles/styles.css" media="screen" />
+<div id="nav">
+<ul>
+  <li class="menu"><a href="index.html">Home</a></li>
+  <li class="menu"><a href="sublime.html">Sublime</a></li>
+  <li class="menu"><a href="git.html">Git</a></li>
+  <li class="menu"><a href="github.html">Github</a></li>
+</ul>
+</div>
+</head>
+<body>
+<ul>
+<h2 class="subtitle">Comandos Git</h2>
+<div title="Inicio de proyecto">
+<li>git init</li>
+<li>git status</li>
+<li>git add -A</li>
+</div>
+<h2 class="subtitle">Commit</h2>
+<li>git commit -m "mensaje comentario"</li>
+<li>git status index.html</li>
+<li>git log</li>
+<div title="Cambio de branch">
+<h2 class="subtitle">Checkout</h2>
+<li>git checkout f877734e32rff3223312</li>
+<li>git checkout master</li>
+</div>
+<li>git log > commits.txt</li>
+<li>git help</li>
+<li>git branch test</li>
+<li>git checkout test</li>
+<li>git checkout master    --in master.</li>
+<li>git merge test</li>
+<h2 class="subtitle">Comandos Git Hub</h2>
+<li>git remote add origin https://github.com/jp/test.git</li>
+<li>git remote -v</li>
+<li>git push origin master</li>
+<h2 class="subtitle">Tag de versiones</h2>
+<h4>Tag anotadas en GIT</h4>
+<li>git tag -a v1.0 -m "Mensaje"</li>
+<h4>Tag sobre version existente en GIT</h4>
+<li>git tag -a v1.0 -m "Mensaje" f877734e32rff3223312</li>
+<h4>Subir tag a github</h4>
+<li>git push origin v1.0</li>
+<div title="Sube todos los tags existentes">
+<li>git push origin --tags</li>
+</div>
+</ul>
+</body>
+</html>

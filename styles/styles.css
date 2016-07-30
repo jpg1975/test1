@@ -1,4 +1,4 @@
-	ul .menubar {
+	ul.menubar {
 	    list-style-type: none;
 	    margin: 111;
 	    padding: 0;
@@ -7,7 +7,7 @@
 	    height: 60px;
 	}
 
-	li a {
+	li.menubar a {
 	    float: left;
 	    display: block;
 	    color: white;
@@ -15,6 +15,11 @@
 	    padding: 24px 80px;	
 	    text-decoration: none;
 	}
+
+	h2 {
+		style="color:#0BBE0B";	
+	}
+
 	li a:hover {
 	    background-color:#7E4646;
 	}
@@ -22,7 +27,3 @@
 	.menu {
 		color:#8E610B; 
 	}
-	.subtitle {
-		style="color:#3E8907";	
-	}
-		

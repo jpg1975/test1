@@ -17,7 +17,10 @@
 	}
 
 	h2 {
-		style="color:#0BBE0B";	
+		color:#17A646;	
+	}
+	h4 {
+		color:#17A646;	
 	}
 
 	li a:hover {
@@ -26,4 +29,12 @@
 
 	.menu {
 		color:#8E610B; 
+	}
+	.subtitle {
+		color:#17A646; 
+	}
+	ul.columnas {
+	  columns: 2;
+	  -webkit-columns: 2;
+	  -moz-columns: 2;
 	}
